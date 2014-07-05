@@ -1,0 +1,36 @@
+{
+  "name": "pretemplater",
+  "description": "Because I wanted to define my own syntax, but still use simple templating from lodash.",
+  "version": "1.1.2",
+  "homepage": "https://github.com/shakyshane/pretemplater",
+  "author": {
+    "name": "Shane Osbourne"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shakyshane/pretemplater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shakyshane/pretemplater/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shakyshane/pretemplater/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  },
+  "keywords": [
+    "templating"
+  ]
+}
