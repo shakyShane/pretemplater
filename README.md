@@ -14,7 +14,7 @@ ends up being:
 
 ```
 <% items.forEach(function(item) { %>
-    <% if (item.name) %>
+    <% if (item.name) { %>
         <%= item %>
     <% } %>
 <%  } %>
